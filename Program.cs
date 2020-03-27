@@ -13,13 +13,15 @@ namespace HW_4
                 {
                     sale=Person/100*5;
                 }
-                if(Person>=500)
+               else if(Person>=500)
                 {
                     sale=Person/100*3;
                 }
-                System.Console.WriteLine($"Sale={sale}");*/
+                System.Console.WriteLine($"Sale={Person-sale}");*/
 
-                    int a= 2,b=2,c=2,d=5;
+               // -----------задача3---------------------
+
+                   /* int a= 65,b=1,c=2,d=5;
                     int Count=0;
                       if(a==b&&b==c&&c==d)
                      {
@@ -33,9 +35,9 @@ namespace HW_4
                      else if(a<=d&&a<=b&&a<=c)System.Console.WriteLine(a);
                      else if(b<=a&&b<=c&&b<=d)System.Console.WriteLine(b);
                      else if(c<=a&&c<=b&&c<=d)System.Console.WriteLine(c);
-                     else if(d<=a&&d<=c&&d<=b)System.Console.WriteLine(d);
+                     else if(d<=a&&d<=c&&d<=b)System.Console.WriteLine(d);*/
                      
-
+                      //  --------------задача 3--------------
 
                   /*  int a=10,b=9,c=10,w=0;
                     if(a>=b&&b>=c)
